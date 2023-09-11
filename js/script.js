@@ -30,3 +30,7 @@ data.docs.forEach(personaje => {
     main.append(article);
 });
 });
+
+function redirigir(ruta){
+    window.location.href = ruta;
+}

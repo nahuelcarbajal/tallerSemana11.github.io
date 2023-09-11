@@ -1,20 +1,16 @@
 body{
-    background-color: #fff75c;
+    background-color: #fff75c;    
 }
-h1{
+.tbl{
+    display: grid;
+    place-items: left;
     text-align: center;
     font-size: large;
     font-family:'Times New Roman', Times, serif;
     border: 1px solid #c3af15;
-    margin: 30px 43%;
-    box-shadow: 7px 7px;
-}
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    box-sizing: border-box;       
-    margin: 0;  
+    margin-bottom: 20px;
+
+    box-shadow: 7px 7px #887a11;
 }
 .img-container{
     width:15%;
@@ -26,4 +22,16 @@ article{
     font-size: large;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    box-sizing: border-box;       
+    margin: 0;  
+}
+.hm-btn button{
+    background-color: #fff75c;
+    border: none;
+    font-size: x-large;
 }
